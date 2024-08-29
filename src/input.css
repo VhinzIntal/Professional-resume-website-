@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+body{
+     background: rgb(247,249,242);
+     background: linear-gradient(90deg, rgba(247,249,242,1) 21%, rgba(145,221,207,1) 100%); 
+     line-height: 1.5;
+     min-height: 100vh;
+}
+li{
+  list-style: none;
+}

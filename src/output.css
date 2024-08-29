@@ -1,0 +1,102 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+html,
+:host {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: Satoshi, sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  border-color: black;
+}
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+.md\:col-span-2 {
+  grid-column: span 2 / span 2;
+}
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
+
+.hover{
+  height: auto; /* Maintain the aspect ratio */
+  transition: transform 0.3s ease;
+}
+.hover:hover{
+  transform: scale(1.05); /* Increase the scale by 5% */
+}
+/* Ensure body has top padding to prevent content overlap */
+body {
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Navbar specific styles */
+.navbar {
+  background-color: #000; /* Black background */
+}
+
+.nav-link {
+  margin: 0 15px; /* Spacing between links */
+}
+
+/* Optional: Add hover effect */
+.nav-link:hover {
+  text-decoration: underline;
+}

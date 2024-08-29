@@ -1,0 +1,22 @@
+{
+  "name": "vhinz-profile",
+  "version": "1.0.0",
+  "description": "a website that shows who vhinz is and his works",
+  "main": "index.html",
+  "scripts": {
+    "watch-css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-jones123/vhinz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-jones123/vhinz/issues"
+  },
+  "homepage": "https://github.com/mr-jones123/vhinz#readme",
+  "devDependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
